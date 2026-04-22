@@ -152,14 +152,36 @@ check_section "$OUTPUT_FILE" "talking points\|key.*talking" "quick ref: talking 
 check_section "$OUTPUT_FILE" "questions.*ask.*interviewer\|ask the interviewer" "quick ref: questions to ask"
 check_section "$OUTPUT_FILE" "red flags\|flags to avoid" "quick ref: red flags to avoid"
 
+# Check that personal info is NOT in the output
+if grep -qi "Apple Pineapple" "$OUTPUT_FILE"; then
+    fail "output contains candidate name — should be excluded"
+else
+    pass "candidate name excluded from output"
+fi
+if grep -qi "apple\.pineapple@email\.com" "$OUTPUT_FILE"; then
+    fail "output contains candidate email — should be excluded"
+else
+    pass "candidate email excluded from output"
+fi
+if grep -qi "fakegit\.com/applepineapple" "$OUTPUT_FILE"; then
+    fail "output contains candidate GitHub URL — should be excluded"
+else
+    pass "candidate GitHub URL excluded from output"
+fi
+if grep -qi "fakelink\.com/applepineapple" "$OUTPUT_FILE"; then
+    fail "output contains candidate LinkedIn URL — should be excluded"
+else
+    pass "candidate LinkedIn URL excluded from output"
+fi
+
 # Check that content is personalized to the fixtures (not generic)
-if grep -qi "Apple Pineapple\|Acme Corp\|DataFlow" "$OUTPUT_FILE"; then
+if grep -qi "Acme Corp\|DataFlow" "$OUTPUT_FILE"; then
     pass "content references resume details"
 else
     fail "content does not reference resume details — may be generic"
 fi
 
-if grep -qi "Y\|fintech\|Platform Infrastructure\|Staff Software Engineer" "$OUTPUT_FILE"; then
+if grep -qi "YYY\|fintech\|Platform Infrastructure\|Staff Software Engineer" "$OUTPUT_FILE"; then
     pass "content references JD details"
 else
     fail "content does not reference JD details — may be generic"

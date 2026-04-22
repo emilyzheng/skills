@@ -42,6 +42,8 @@ Use the Read tool to read both files. Extract key information:
 - Education and certifications
 - Projects and leadership examples
 
+**Do NOT extract or include in the output:** the candidate's real name, phone number, email address, GitHub URL, or LinkedIn URL.
+
 ### 2. Analyze Match Points
 
 Compare the resume against the job description:
