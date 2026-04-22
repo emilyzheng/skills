@@ -1,0 +1,41 @@
+Staff Software Engineer - Platform Infrastructure
+
+Y is a fast-growing B2B SaaS company serving the fintech industry. We help
+financial institutions modernize their payment processing infrastructure.
+
+About the Role
+
+We're looking for a Staff Software Engineer to join our Platform Infrastructure team.
+You'll design and build the foundational services that all product teams depend on,
+including API gateways, service mesh, observability, and deployment tooling.
+
+What You'll Do
+- Design and implement core platform services used by 20+ product engineering teams
+- Lead technical design reviews and establish architectural standards
+- Build and maintain our internal developer platform (IDP) to improve developer velocity
+- Own the API gateway layer handling 100M+ requests/day
+- Collaborate with Security, SRE, and Product Engineering teams
+- Mentor senior and mid-level engineers
+
+Requirements
+- 7+ years of software engineering experience
+- Expert-level proficiency in Go or Java
+- Strong experience with Python for tooling and automation
+- Deep knowledge of distributed systems, microservices, and API design
+- Experience with Kubernetes, Docker, and container orchestration at scale
+- Proficiency with cloud platforms (AWS preferred)
+- Experience with observability tools (Datadog, Grafana, Prometheus)
+- Strong communication skills and experience leading technical discussions
+- BS or MS in Computer Science or equivalent
+
+Nice to Have
+- Experience with service mesh (Istio, Envoy)
+- Contributions to open-source projects
+- Experience in fintech or payments domain
+- Familiarity with gRPC and protocol buffers
+
+Our Values
+- Move fast with confidence
+- Build for the long term
+- Transparency and trust
+- Customer obsession

@@ -1,0 +1,39 @@
+Apple Pineapple
+San Francisco, CA | apple.pineapple@email.com | fakegit.com/applepineapple
+
+PROFESSIONAL SUMMARY
+Backend engineer with 8 years of experience building distributed systems and APIs.
+Proficient in Python, Go, and Java. Strong background in cloud infrastructure (AWS),
+CI/CD pipelines, and database design. Passionate about clean code and mentoring.
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | Acme Corp | Jan 2021 - Present (3 yrs)
+- Architected a real-time event processing pipeline handling 50K events/sec using
+  Kafka, Go, and PostgreSQL
+- Led migration of monolithic Django application to microservices, reducing deploy
+  times from 2 hours to 15 minutes
+- Mentored 4 junior engineers through structured 1:1s and code review
+
+Software Engineer | DataFlow Inc | Mar 2018 - Dec 2020 (2 yrs 10 mos)
+- Built RESTful APIs serving 10M requests/day using Python/Flask and Redis
+- Designed and implemented a data pipeline with Apache Airflow processing 500GB daily
+- Improved test coverage from 45% to 92% using pytest and integration test suites
+
+Junior Software Engineer | StartupXYZ | Jun 2016 - Feb 2018 (1 yr 9 mos)
+- Developed features for a Django-based SaaS platform
+- Wrote unit and integration tests, maintained CI pipelines with Jenkins
+- Participated in on-call rotation and incident response
+
+SKILLS
+Languages: Python, Go, Java, SQL
+Frameworks: Django, Flask, Spring Boot, gRPC
+Databases: PostgreSQL, Redis, MongoDB, MySQL
+Infrastructure: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Terraform
+Tools: Git, Jenkins, GitHub Actions, Datadog, Grafana
+
+EDUCATION
+BS Computer Science, UC Berkeley, 2016
+
+CERTIFICATIONS
+AWS Solutions Architect Associate, 2022
