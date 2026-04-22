@@ -1,6 +1,6 @@
 ---
 name: interview-prep
-description: Prepare for a job interview by analyzing a resume against a job description. Outputs a comprehensive markdown prep guide with job summary, skill matching, and 15 Q&A pairs. Usage: /interview-prep <resume_path> <job_description_path>
+description: "Prepare for a job interview by analyzing a resume against a job description. Outputs a comprehensive markdown prep guide with job summary, skill matching, and 15 Q&A pairs. Usage: /interview-prep <resume_path> <job_description_path>"
 ---
 
 # Interview Preparation Skill
